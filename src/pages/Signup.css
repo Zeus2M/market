@@ -79,3 +79,33 @@
     padding: 1rem;
 }
 }
+
+.googlebtn{
+  background-color: white !important;
+    color: black !important;
+    border: ridge !important;  
+   display: flex;
+   align-items: center;
+   gap: 8px;
+   justify-content: center;
+   border-radius: .2rem !important;
+    
+}
+
+.googleicon{
+    width: 24px;
+    height: 24px;
+  
+} 
+
+.already{
+   display: flex;
+   padding: 1rem 2rem;
+   gap: 8px;
+    justify-content: center;
+}
+
+.log{
+    color: black;
+    cursor: pointer;
+}

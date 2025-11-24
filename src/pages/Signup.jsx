@@ -3,9 +3,11 @@ import "./Signup.css";
 import { useFormik } from "formik";
 import { number, object, string } from "yup";
 import { toast } from "react-toastify";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import TopBanner from "../components/TopBanner";
 import NavComponent from "../components/NavComponent";
+import { FcGoogle } from "react-icons/fc";
+
 
 const Signup = () => {
   const navigate = useNavigate();
@@ -126,6 +128,10 @@ const Signup = () => {
             <button type="submit" className="submit-update-button">
               Create Account
             </button>
+             <button className="googlebtn">
+                <FcGoogle className="googleicon"/> Sign up with Google
+            </button>
+            <p className="already">Already have an account? <Link to="/signin" className="log">Log in</Link></p>
           </form>
         </div>
       </div>

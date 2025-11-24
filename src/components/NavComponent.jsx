@@ -34,7 +34,7 @@ const [ displayMenu, setDisplayMenu ] = useState(false);
       <div className="small-screen-nav">
         <div className="small-header-wrapper">
           <Link to="/">
-            <div>Market</div>
+            <div>Luxeport🛒</div>
           </Link>
 
           <div className="icon"  onClick={()=>setDisplayMenu(!displayMenu)}>

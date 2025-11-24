@@ -1,0 +1,14 @@
+.loginbtn{
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    justify-content: space-between;
+   
+}
+.log{
+   width: 30%;
+}
+
+.forget{
+    margin-top: 20px;
+}

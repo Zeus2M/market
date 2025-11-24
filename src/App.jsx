@@ -12,9 +12,9 @@ function App() {
   return (
     <Routes>
       <Route exact path='/' element={<Homepage />} />
-      <Route exact path='signup' element={<Signup />} />
-      <Route exact path='signin' element={<Signin />} />
-      <Route exact path='*' element={<Error404/>}/>
+      <Route  path='/signup' element={<Signup />} />
+      <Route  path='/signin' element={<Signin />} />
+      <Route  path='*' element={<Error404/>}/>
    </Routes>
   )
 }
