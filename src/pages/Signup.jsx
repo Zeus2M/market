@@ -95,7 +95,7 @@ const Signup = () => {
                       </div>
                       
                         <div className="form-group">
-              {/* <label>Last Name:</label> */}
+             
               <input
                 name="email"
                 onChange={formik.handleChange}
@@ -109,13 +109,13 @@ const Signup = () => {
             </div>
            
               <div className="form-group">
-              {/* <label>Last Name:</label> */}
+             
               <input
                 name="password"
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
                 type="password"
-                              placeholder="Password"
+                placeholder="Password"
                 
               />
               {formik.touched.password && formik.errors.password ? (

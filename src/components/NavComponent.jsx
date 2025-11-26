@@ -64,7 +64,7 @@ const [ displayMenu, setDisplayMenu ] = useState(false);
 
           <Link to="/contact">Contact</Link>
 
-          <Link to="/about">About</Link>
+          <Link to="/About">About</Link>
 
           <Link to="/signup">Sign Up</Link>
                   </div>
