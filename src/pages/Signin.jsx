@@ -6,6 +6,7 @@ import { toast } from "react-toastify";
 import { Link, useNavigate } from "react-router-dom";
 import TopBanner from "../components/TopBanner";
 import NavComponent from "../components/NavComponent";
+import Footer from "../components/Footer";
 
 
 
@@ -62,7 +63,7 @@ const Signin = () => {
 
         <div className="form-wrapper">
           <form onSubmit={formik.handleSubmit}>
-                      <h4>Log in to Luxeport🛒 </h4>
+                      <h4>Log in to Luxeport🛒</h4>
                       <h5>Enter your details below</h5>
 
       
@@ -102,6 +103,7 @@ const Signin = () => {
            
         </div>
       </div>
+      <Footer />
     </div>
 
   );

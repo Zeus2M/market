@@ -18,4 +18,4 @@ const TopBanner = () => {
   )
 }
 
-export default TopBanner
+export default TopBanner;

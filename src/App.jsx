@@ -18,7 +18,7 @@ function App() {
       <Route  path='/signup' element={<Signup />} />
       <Route  path='/signin' element={<Signin />} />
       <Route  path='*' element={<Error404/>}/>
-      <Route path='/ContactUsPage' element={<ContactUsPage />}/>
+      <Route path='/contact' element={<ContactUsPage />}/>
       <Route path='/About' element={<AboutUs />}/>
    </Routes>
   )

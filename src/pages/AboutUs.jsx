@@ -4,6 +4,7 @@ import NavComponent from '../components/NavComponent'
 import { CiTwitter } from "react-icons/ci"
 import { FaInstagram } from "react-icons/fa6"
 import { RiLinkedinLine } from "react-icons/ri"
+import Footer from "../components/Footer"
 
 
 const AboutUs = () => {
@@ -137,7 +138,7 @@ Exclusive has more than 1 Million products to offer, growing at a very fast. Exc
 
     </div>
 
-    
+    <Footer />
   </div>
 
 

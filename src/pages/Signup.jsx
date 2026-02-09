@@ -7,6 +7,7 @@ import { Link, useNavigate } from "react-router-dom";
 import TopBanner from "../components/TopBanner";
 import NavComponent from "../components/NavComponent";
 import { FcGoogle } from "react-icons/fc";
+import Footer from "../components/Footer";
 
 
 const Signup = () => {
@@ -66,7 +67,7 @@ const Signup = () => {
                       <h5>Enter your details below</h5>
 
             <div className="form-group">
-              {/* <label>First Name:</label> */}
+            
 
               <input
                 name="firstname"
@@ -81,7 +82,7 @@ const Signup = () => {
             </div>
 
             <div className="form-group">
-              {/* <label>Last Name:</label> */}
+            
               <input
                 name="lastname"
                 onChange={formik.handleChange}
@@ -135,6 +136,7 @@ const Signup = () => {
           </form>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

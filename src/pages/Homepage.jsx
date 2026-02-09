@@ -15,10 +15,12 @@ import ProductCard from "../components/ProductCard";
 import { FaArrowRight } from "react-icons/fa6";
 import { BsSmartwatch } from "react-icons/bs";
 import { CiCamera } from "react-icons/ci";
-import { LuGamepad, LuGamepad2 } from "react-icons/lu";
+import { LuGamepad, LuGamepad2, LuShieldCheck } from "react-icons/lu";
 import { HiOutlineComputerDesktop } from "react-icons/hi2";
 import { IoPhonePortraitOutline } from "react-icons/io5";
 import Footer from "../components/Footer";
+import { RiCustomerServiceLine } from "react-icons/ri";
+import { TbTruckDelivery } from "react-icons/tb";
 
 
 const Homepage = () => {
@@ -411,6 +413,120 @@ const Homepage = () => {
               View All Products 
             </button>
           </div>
+        </section>
+
+         <section className="newarrival-section">
+          <SectionHeader headerContent="Featured" />
+          <div className="flashsales-wrapper">
+            <div className="flashsales">
+              <h2>New Arrival</h2>
+            </div>
+          </div>
+
+     
+          <div className="collections-wrapper">
+            <div className="left-collection">
+              <div className="collection-card">
+                <img src="/src/assets/ps5.png" />
+                <div className="collection-text">
+                  <h2>PlayStation 5</h2>
+                  <p>Black and White version of the PS5 coming out on sale.</p>
+                  <button className="shop-now">Shop Now</button>
+                </div>
+              </div>
+            </div>
+   
+                <div className="right-collection">
+              <div className="right-collection-upper">
+                <div className="collection-card">
+                  <img src="/src/assets/attractivewoman.png" />
+                  <div className="collection-text">
+                    <h2>Women's Collection</h2>
+                    <p>
+                       Feature women's collection that gives you another vibe
+                    </p>
+                    <button className="shop-now">Shop Now</button>
+                  </div>
+                </div>
+              </div>
+      
+                <div className="right-collection-lower">
+                <div className="collection-card">
+                  <img src="/src/assets/speakers.png" />
+                  <div className="collection-text">
+                    <h2>Speakers</h2>
+                    <p>
+                    Amazon wireless speakers.
+                    </p>
+                    <button className="shop-now">Shop Now</button>
+                  </div>
+                </div>
+
+                 <div className="collection-card">
+                  <img src="/src/assets/perfume.png" />
+                  <div className="collection-text">
+                    <h2>Perfume</h2>
+                    <p>
+                      Gucci Intense Oud EDP
+                    </p>
+                    <button className="shop-now">Shop Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+          <section className="feature-cards">
+
+          <div className="feature-card">
+
+            <div className="feature-img-wrapper">
+              <TbTruckDelivery size={40} />
+
+            </div>
+
+            <div className="feature-content">
+              <h3>FREE AND FAST DELIVERY</h3>
+              <p>Free deliveries for all orders over $140</p>
+
+            </div>
+
+
+          </div>
+
+          <div className="feature-card">
+
+            <div className="feature-img-wrapper">
+              <RiCustomerServiceLine size={40} />
+
+            </div>
+
+            <div className="feature-content">
+              <h3>24/7 CUSTOMER SERVICE</h3>
+              <p>Friendly 24/7 customer support</p>
+
+            </div>
+
+
+          </div>
+
+          <div className="feature-card">
+
+            <div className="feature-img-wrapper">
+              <LuShieldCheck size={40}/>
+
+            </div>
+
+            <div className="feature-content">
+              <h3>MONEY BACK GRUARANTEE</h3>
+              <p>We return money within 30 days.</p>
+
+            </div>
+
+
+          </div>
+
         </section>
    </main>
    <Footer/>

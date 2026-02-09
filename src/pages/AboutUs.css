@@ -91,28 +91,28 @@ padding-right: 40px;
 
 @media screen and (max-width: 800px){
 .int{
-    display: block;
+    
+    flex-direction: column-reverse;
     
 }
 .story{
-    width: 90%;
+    width: 100%;
 }
 .sid{
     padding-top: 20px;
-  width: 90%;
-   padding-left: 40px;
-}
-    
+    width: 20rem;
+    height: 20rem;
+ }  
 }
 
 .customer{
      display: flex;
      align-items: center;
      justify-self: center;
-     gap: 15rem;
+     gap: 1rem;
      padding-top: 80px;    
      padding-left: 5rem;
-    
+   width: 100%;
 
 }
 
@@ -152,4 +152,161 @@ padding-right: 40px;
 }
 .free img{
     width: 50px;
+}
+
+
+
+@media (max-width: 320px) {
+    .toknow{
+        gap: 20px;
+      flex-wrap: wrap;
+      flex-direction: column;
+      padding-left: 1rem;
+    }
+
+    .customer{
+        flex-direction: column;
+        padding-left: 1rem;
+        width: 100%;
+    }
+
+    .free{
+        flex-direction: column;
+        gap: 40px;
+        padding-left: 0;
+    }
+
+    .home-nav{
+        padding-left: 0;
+        
+    }
+   
+   .int{
+    display: flex;
+    flex-direction: column-reverse;
+   }
+
+   .story{
+    padding-left: 0;
+    padding-left: 0;
+    margin-right: 0;
+}
+
+   .story h1{
+            padding-top: 20px;
+            padding-left: 4px;
+
+   }
+
+   .story p{
+     padding-left: 5px;
+     padding-bottom: 0;
+   }
+
+   .sid{
+    width: 15rem;
+    height: auto;
+   }
+    
+}
+
+
+
+@media (max-width: 437px) {
+     .toknow{
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .customer{
+        flex-direction: column;
+           width: 100%;
+
+    }
+
+    .free{
+        flex-direction: column;
+        gap: 40px;
+        padding-left: 0;
+    }
+
+    .home-nav{
+        padding-left: 0;
+        width: 100%;
+        
+    }
+   
+   .int{
+    display: flex;
+    padding: 1rem 1rem;
+    flex-direction: column-reverse;
+   }
+
+   .story h1{
+            padding-top: 20px;
+            padding-left: 4px;
+
+   }
+
+   .story p{
+     padding-left: 5px;
+     padding-bottom: 0;
+   }
+
+   .sid{
+    padding-top: 20px;
+    width: 100%;
+    height: auto;
+    
+
+}
+
+  
+}
+
+
+@media (max-width: 1064px) {
+      .toknow{
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+
+    
+}
+
+/* @media (max-width: 941px) {
+ .customer{
+        flex-direction: column;
+    }
+
+    .free{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    
+
+   .sid{
+
+    width: 20rem;
+    height: 20rem;
+  
+}
+} */
+
+@media (max-width: 742px) {
+
+    .customer{
+        flex-direction: column;
+    }
+
+    .free{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    
+
+   
 }

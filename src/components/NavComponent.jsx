@@ -11,7 +11,7 @@ const [ displayMenu, setDisplayMenu ] = useState(false);
     <div className="nav-component">
       <div className="logo">
         <Link to="/">
-          <div>Market</div>
+          <div>Luxeport🛒 </div>
         </Link>
       </div>
 
@@ -40,8 +40,7 @@ const [ displayMenu, setDisplayMenu ] = useState(false);
           <div className="icon"  onClick={()=>setDisplayMenu(!displayMenu)}>
 
                       {
-                          !displayMenu &&  <FiMenu
-         />
+                          !displayMenu &&  <FiMenu />
                           
                       }
         
@@ -62,7 +61,7 @@ const [ displayMenu, setDisplayMenu ] = useState(false);
                  <div className="small-screen-links">
           <Link to="/">Home</Link>
 
-          <Link to="/contact">Contact</Link>
+          <Link to="/ContactUsPage">Contact</Link>
 
           <Link to="/About">About</Link>
 
