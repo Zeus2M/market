@@ -8,7 +8,7 @@ const ProductCard = () => {
   return (
       <div className='product-card'>
           <div className='image-wrapper'>
-               <img src='/src/assets/pad.png' className='product-img'/>
+               <img src='/assets/pad.png' className='product-img'/>
               
               <div className='discountpercent'>-40%</div>
               <div className="icons-wrapper">

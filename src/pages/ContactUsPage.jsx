@@ -25,7 +25,7 @@ const ContactUsPage = () => {
           
           </div>
          <div>
-          <h3><img src='src/assets/icons-phone (2).png' className='callerimg' /> Call To Us</h3>
+          <h3><img src='/assets/icons-phone (2).png' className='callerimg' /> Call To Us</h3>
           <p>We are available 24/7, 7 days a week.</p>
           <p className="phone">Phone: +123456789</p>
         
@@ -37,7 +37,7 @@ const ContactUsPage = () => {
           <div className="icon-circle">
             
           </div>
-          <h3> <img src='src/assets/icons-mail (1).png' className='mailerimg'/> Write To Us</h3>
+          <h3> <img src='/assets/icons-mail (1).png' className='mailerimg'/> Write To Us</h3>
           <p>Fill out our form and we will contact you within 24 hours.</p>
           <p className="email">Emails: customer@luxeport.com</p>
           <p className="email">Emails: support@luxeport.com</p>

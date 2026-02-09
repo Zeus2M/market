@@ -69,15 +69,15 @@ const Footer = () => {
                   <p className='p-save'>Save $3 with new app users only</p>
 
                   <div className="qr-wrapper">
-                      <img className='qrcodeimg' src="/src/assets/qrcode.png"/>
+                      <img className='qrcodeimg' src="/assets/qrcode.png"/>
 
                       <div className='googleplays'>
                           <a href="/">
-                            <img className='googleplay' src="/src/assets/googleplay.png" />
+                            <img className='googleplay' src="/assets/googleplay.png" />
                           </a>
 
                            <a href="/">
-                            <img className='googleplay' src="/src/assets/playstore.png" />
+                            <img className='googleplay' src="/assets/playstore.png" />
                           </a>
                       </div>
                       
