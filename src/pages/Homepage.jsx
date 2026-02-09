@@ -109,7 +109,7 @@ const Homepage = () => {
                   </div>
                 </div>
 
-                <img src="/src/assets/iphoneimg.png" />
+                <img src="/assets/iphoneimg.png" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -132,7 +132,7 @@ const Homepage = () => {
                   </div>
                 </div>
 
-                <img src="/src/assets/iphoneimg.png" />
+                <img src="/assets/iphoneimg.png" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -155,7 +155,7 @@ const Homepage = () => {
                   </div>
                 </div>
 
-                <img src="/src/assets/iphoneimg.png" />
+                <img src="/assets/iphoneimg.png" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -178,7 +178,7 @@ const Homepage = () => {
                   </div>
                 </div>
 
-                <img src="/src/assets/iphoneimg.png" />
+                <img src="/assets/iphoneimg.png" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -201,7 +201,7 @@ const Homepage = () => {
                   </div>
                 </div>
 
-                <img src="/src/assets/iphoneimg.png" />
+                <img src="/assets/iphoneimg.png" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -224,7 +224,7 @@ const Homepage = () => {
                   </div>
                 </div>
 
-                <img src="/src/assets/iphoneimg.png" />
+                <img src="/assets/iphoneimg.png" />
               </div>
             </SwiperSlide>
             
@@ -371,7 +371,7 @@ const Homepage = () => {
           </div>
 
           <div className="enhance-right">
-            <img src="/src/assets/jbl.png" alt="speaker img" />
+            <img src="/assets/jbl.png" alt="speaker img" />
 
           </div>
            
@@ -427,7 +427,7 @@ const Homepage = () => {
           <div className="collections-wrapper">
             <div className="left-collection">
               <div className="collection-card">
-                <img src="/src/assets/ps5.png" />
+                <img src="/assets/ps5.png" />
                 <div className="collection-text">
                   <h2>PlayStation 5</h2>
                   <p>Black and White version of the PS5 coming out on sale.</p>
@@ -439,7 +439,7 @@ const Homepage = () => {
                 <div className="right-collection">
               <div className="right-collection-upper">
                 <div className="collection-card">
-                  <img src="/src/assets/attractivewoman.png" />
+                  <img src="/assets/attractivewoman.png" />
                   <div className="collection-text">
                     <h2>Women's Collection</h2>
                     <p>
@@ -452,7 +452,7 @@ const Homepage = () => {
       
                 <div className="right-collection-lower">
                 <div className="collection-card">
-                  <img src="/src/assets/speakers.png" />
+                  <img src="/assets/speakers.png" />
                   <div className="collection-text">
                     <h2>Speakers</h2>
                     <p>
@@ -463,7 +463,7 @@ const Homepage = () => {
                 </div>
 
                  <div className="collection-card">
-                  <img src="/src/assets/perfume.png" />
+                  <img src="/assets/perfume.png" />
                   <div className="collection-text">
                     <h2>Perfume</h2>
                     <p>
